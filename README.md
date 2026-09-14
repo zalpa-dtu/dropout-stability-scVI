@@ -68,9 +68,9 @@ The scripts used to add technical dropout can be found in the `generate_dropout`
 Both single-cell analysis pipelines are implemented in `pipelines.py`. Additionally, the file contains the parent class of both pipelines "EmbeddingPipeline", a dataclass "PipelineResults" to store the experimental results and a wrapper function "timeit_store" to track the computing times for each step of the pipeline.
 
 ### Helper Files
-1. `data_handling.py` - functions for loading datasets and finding input files.
-2. `analysis.py` - utilities for parsing result filenames and collecting output files.
-3. `plotting.py` - helper functions for formatting and generating summary plots.
+1. `utils/data_handling.py` - functions for loading datasets and finding input files.
+2. `utils/analysis.py` - utilities for parsing result filenames and collecting output files.
+3. `utils/plotting.py` - helper functions for formatting and generating summary plots.
 
 ### Job Scripts
 - `scripts/submit_generate_baseline.sh`: script for running baseline files 
