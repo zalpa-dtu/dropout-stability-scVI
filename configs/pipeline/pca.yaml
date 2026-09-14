@@ -1,0 +1,13 @@
+n_components:
+  - 400
+  - 100
+  - 50
+  - 10
+highly_variable_genes:
+  - false
+normalize_total: 
+  - true
+log1p:
+  - true
+scale:
+  - false

@@ -1,0 +1,8 @@
+defaults:
+  - _self_
+  - pipeline@pipeline.PCA: pca
+  - pipeline@pipeline.SCVI: scvi
+  - data
+
+seed: 42
+unique_groups: ???

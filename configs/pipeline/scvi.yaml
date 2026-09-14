@@ -1,0 +1,16 @@
+n_latent:
+  - 5
+  - 10
+  - 20
+n_hidden: 
+  - 128
+n_layers:
+  - 1
+likelihood:
+  - "zinb"
+n_epochs: 
+  - 200
+batch_size: 
+  - 128
+highly_variable_genes:
+  - false
