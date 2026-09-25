@@ -1,4 +1,4 @@
-# Generate a Splatter-based true expression dataset and save it as .h5ad.
+# Generate a Splat-based true expression dataset and save it as .h5ad.
 
 # The script simulates grouped single-cell counts, extracts the true count matrix and group labels, 
 # computes the dropout, and saves the result in .h5ad format.
@@ -7,7 +7,7 @@
 args <- commandArgs(trailingOnly = TRUE)
 ncells      = as.numeric(as.character(args[1])) # number of cells to simulate
 ngenes      = as.numeric(as.character(args[2])) # number of highly variable genes to use for simulation
-seed       = as.numeric(as.character(args[3])) # random seed for reproducibility
+seed        = as.numeric(as.character(args[3])) # random seed for reproducibility
 outputpath  = args[4] # directory where the .h5ad output file should be written
 
 library(splatter)
