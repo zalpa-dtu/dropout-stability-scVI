@@ -16,7 +16,7 @@ IFS=',' read -r -a SEEDS <<< "${SEED_LIST}"
 
 mkdir -p "${OUTPUTPATH}"
 
-PROJECT_DIR="${PROJECT_DIR:-/dtu-compute/digitstem/zuzanna/zuzanna_dropout_project}"
+PROJECT_DIR="${PROJECT_DIR:-/dtu-compute/digitstem/zuzanna/dropout-stability-scVI}"
 PYTHON="${PROJECT_DIR}/.conda-env/bin/python"
 
 for seed in "${SEEDS[@]}"
