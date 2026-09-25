@@ -15,7 +15,7 @@ mkdir -p "${DATA_DIR}"
 
 # Override the default project directory with:
 # PROJECT_DIR="/path/to/project" bash scripts/submit_generate_zeros.sh ...
-PROJECT_DIR="${PROJECT_DIR:-/dtu-compute/digitstem/zuzanna/zuzanna_dropout_project}"
+PROJECT_DIR="${PROJECT_DIR:-/dtu-compute/digitstem/zuzanna/dropout-stability-scVI}"
 PYTHON_ENV="${PROJECT_DIR}/.conda-env"
 
 # R module used on the DTU cluster. Override with:
