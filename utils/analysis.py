@@ -63,7 +63,7 @@ def extract_params(filename):
         r"(?:(?P<rate2>[\dp.]+)rate_)?"
         r"(?:(?P<mid>\d+(?:p\d+)?)mid_)?"
         r"(?:(?P<shape>m?\d+(?:p\d+)?)shape_)?"
-        r"(?:(?P<alpha0>\d+(?:p\d+)?)alpha0_)?"
+        r"(?:(?P<alpha0>m?\d+(?:p\d+)?)alpha0_)?"
         r"(?:(?P<prop>\d+(?:p\d+)?)prop_)?"
         r"(?:(?P<meanlibrary>\d+(?:p\d+)?(?:e[+-]?\d+)?)meanlibrary_)?"
         r"(?:(?P<varlibrary>\d+(?:p\d+)?(?:e[+-]?\d+)?)varlibrary_)?"
