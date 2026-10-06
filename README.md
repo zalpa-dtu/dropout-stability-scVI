@@ -73,13 +73,14 @@ Both single-cell analysis pipelines are implemented in `pipelines.py`. Additiona
 3. `utils/plotting.py` - helper functions for formatting and generating summary plots.
 
 ### Job Scripts
-- `scripts/submit_generate_baseline.sh`: script for running baseline files 
-- `scripts/submit_generate_zeros.sh`: script for running dropout generation files 
-- `scripts/submit_pipelines_gpu.sh`: runs experiment for chosen baseline expression and dropout generation method
+- `scripts/submit_generate_baseline.sh`: script for running baseline files.
+- `scripts/submit_generate_zeros.sh`: script for running dropout generation files.
+- `scripts/submit_pipelines_gpu.sh`: runs experiment for chosen baseline expression and dropout generation method.
 
 ### Notebooks
 - `notebooks/AnalysisDropout.ipynb`: loads results, computes metrics, and generates plots.
-- `notebooks/AnalysisRuntime.ipynb`: loads results from all the experiments, and plot runtime information
+- `notebooks/AnalysisRuntime.ipynb`: loads results from all the experiments, and plot runtime information.
+- `notebooks/AnalysisMethodsComparison.ipynb`: creates an ordered gene expression profile, applies different dropout methods, and analyzes dropout patterns.
 
 ## Workflow
 1. Simulate baseline expression data (`generate_baseline`).
