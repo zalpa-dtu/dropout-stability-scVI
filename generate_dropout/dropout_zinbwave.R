@@ -112,7 +112,7 @@ for (a0 in dropout_alpha0) {
   zero_fraction <- sum(observed_mat == 0) / length(observed_mat)
   zero_pct <- round(100 * zero_fraction, 2)
   zeros <- gsub("\\.", "p", sprintf("%.2f", zero_pct))
-  a0_str <- gsub("\\.", "p", as.character(a0))
+  a0_str <- gsub("-", "m", gsub("\\.", "p", as.character(a0)))
 
   ann_observed <- AnnData(
     X = Matrix(observed_mat, sparse = TRUE),
