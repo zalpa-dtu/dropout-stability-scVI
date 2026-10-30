@@ -79,8 +79,9 @@ Both single-cell analysis pipelines are implemented in `pipelines.py`. Additiona
 
 ### Notebooks
 - `notebooks/AnalysisDropout.ipynb`: loads results, computes metrics, and generates plots.
-- `notebooks/AnalysisRuntime.ipynb`: loads results from all the experiments, and plot runtime information.
+- `notebooks/AnalysisRuntime.ipynb`: loads results from all the experiments, and plots runtime information.
 - `notebooks/AnalysisMethodsComparison.ipynb`: creates an ordered gene expression profile, applies different dropout methods, and analyzes dropout patterns.
+- `notebooks/AnalysisBaselinesComparison.ipynb`: loads the baseline datasets, computes per-gene mean normalized expression and between-group variance, and generates plots.
 
 ## Workflow
 1. Simulate baseline expression data (`generate_baseline`).
